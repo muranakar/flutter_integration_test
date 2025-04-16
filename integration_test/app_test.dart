@@ -17,7 +17,7 @@ void main() {
       final fab = find.byKey(const Key('increment'));
       await tester.tap(fab);
 
-      // フレームをトリガー
+      // 画面のアニメーションや非同期処理が完了するまで待機するために使用されます。
       await tester.pumpAndSettle();
 
       // カウンターが1に増加したことを確認
