@@ -6,8 +6,8 @@ import 'package:flutter_integration_test/main.dart';
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
-  group('エンドツーエンドテスト', () {
-    testWidgets('フローティングアクションボタンをタップし、カウンターを検証', (tester) async {
+  group('E2E テスト', () {
+    testWidgets('ボタンをタップし、カウンターを検証', (tester) async {
       await tester.pumpWidget(const MyApp());
 
       // 初期状態でカウンターが0であることを確認
