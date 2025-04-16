@@ -6,7 +6,7 @@ import 'package:flutter_integration_test/main.dart';
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
-  group('別のエンドツーエンドテスト', () {
+  group('別のE2Eテスト', () {
     testWidgets('カウンターが初期値であることを確認', (tester) async {
       await tester.pumpWidget(const MyApp());
 
